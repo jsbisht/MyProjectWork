@@ -1,0 +1,11 @@
+<div id="input-box" input-box-controller>
+    <div id="inputbox-textarea-wrapper">
+        <textarea id="input-textarea" rows="3" ng-model="InputBoxCtrl.commentText"
+                  placeholder="What's up?" required></textarea>
+    </div>
+    <div id="inputbox-buttons-wrapper">
+        <!--<img class="inputbox-icon" src="img/icons/attach.png">-->
+        <button class="btn" id="submit-button"
+                ng-click="InputBoxCtrl.addComment()">Submit</button>
+    </div>
+</div>
